@@ -1926,7 +1926,7 @@ body.is-preload {
       "background-image",
       (
         "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-        'url("../../images/banner.jpg")'
+        'url("../../images/banner.png")'
       )
     );
     background-attachment: fixed;
@@ -2057,7 +2057,7 @@ body.landing {
       "background-image",
       (
         "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-        'url("../../images/banner.jpg")'
+        'url("../../images/banner.png")'
       )
     );
     background-attachment: fixed;
@@ -2080,13 +2080,14 @@ body.is-mobile {
 
     #banner,
     .wrapper.style4 {
-      @include vendor(
-        "background-image",
-        (
-          "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-          'url("../../images/banner.jpg")'
-        )
-      );
+      // @include vendor(
+      //   "background-image",
+      //   (
+      //     "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
+      //     'url("../../images/banner.png")'
+      //   )
+      // );
+      background-image: url("../../images/banner.png");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
