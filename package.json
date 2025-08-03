@@ -1,0 +1,37 @@
+{
+  "name": "bev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio for Beverly, a front-end developer specialized in Vue.js and React.js",
+  "author": "Beverly Cagelet",
+  "keywords": [
+    "gatsby",
+    "portfolio"
+  ],
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@heroui/react": "^2.8.2",
+    "@tailwindcss/postcss": "^4.1.11",
+    "framer-motion": "^12.23.12",
+    "gatsby": "^5.14.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.21",
+    "eslint-config-react-app": "^7.0.1",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.3.3"
+  }
+}
