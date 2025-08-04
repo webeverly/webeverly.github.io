@@ -43,7 +43,7 @@ export default function Component() {
         <p> 🏒 J'adore le <span className="font-bold">hockey</span>, le <span className="font-bold">soccer</span> et le <span className="font-bold">football</span>.</p>
         <p> ⚽️ J'ai d'ailleurs été arbitre au soccer durant 7 ans.</p>
         <p> 🗺️ J'ai voyagé un peu partout en France et dans plusieurs pays d'Europe.</p>
-        <p> 💻 Je code professionnellement depuis plus de 5 ans, mais j'ai tenu des blogs dès l'âge de 10 ans.</p>
+        <p> 💻 Je code professionnellement depuis <b>plus de 5 ans</b>, mais j'ai tenu des blogs dès l'âge de 10 ans.</p>
       </div>
     </div>
     <div className="w-4/5 my-8 sm:my-12 mx-auto sm:w-2/3">
@@ -65,8 +65,8 @@ export default function Component() {
     </div>
     <div className="my-12 mx-auto w-full sm:w-2/3">
       {/* TODO: CV */}
-      <h2>Obtenir mon CV</h2>
-      <p>Pour en savoir plus et obtenir mon CV c'est ici!</p>
+      {/* <h2>Obtenir mon CV</h2> */}
+      {/* <p>Pour en savoir plus et obtenir mon CV c'est ici!</p> */}
       <div className="flex gap-4">
         {/* <Button className="my-2 block"><Link to={CV}>Obtenir mon CV</Link></Button> */}
         <Button className="my-2 block" color="primary" radius="full"><Link to="https://www.linkedin.com/in/beverly-cagelet/">Contacter sur Linkedin</Link></Button>
@@ -89,7 +89,7 @@ export default function Component() {
           <Button className="my-2 block" variant="light" color="primary" radius="full">
             <Link to="https://calendar.app.google/xeLir2EqXixX134d6">Prendre RDV (Google)</Link>
           </Button>
-          <Button className="my-2 block" color="primary" radius="full">Envoyer un email</Button>
+          <Button className="my-2 block" color="primary" radius="full"><Link to='mailto:beverly.cagelet.protic@gmail.com'>Envoyer un email</Link></Button>
         </div>
       </CardBody>
     </Card>

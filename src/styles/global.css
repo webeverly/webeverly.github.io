@@ -9,16 +9,16 @@
 /* @config "../../tailwind.config.js"; */
 
 body {
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
-  font-family: Faculty Glyphic, serif;
+  font-family: 'Faculty Glyphic', serif;
   @apply text-3xl sm:text-4xl font-bold;
 }
 
 h2 {
-  font-family: Faculty Glyphic, serif;
+  font-family: 'Faculty Glyphic', serif;
   @apply text-2xl sm:text-3xl;
 }
 
