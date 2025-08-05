@@ -63,7 +63,7 @@ export default function Component() {
         <Checkbox value="quebec">Travailler 1 fois par année du Québec</Checkbox>
       </CheckboxGroup>
     </div>
-    <div className="my-12 mx-auto w-full sm:w-2/3">
+    <div className="my-12 mx-4 sm:mx-auto w-full sm:w-2/3">
       {/* TODO: CV */}
       {/* <h2>Obtenir mon CV</h2> */}
       {/* <p>Pour en savoir plus et obtenir mon CV c'est ici!</p> */}
@@ -85,7 +85,7 @@ export default function Component() {
         <p className="my-2">
           Que ce soit pour une demande d'informations, un contrat ou une collaboration.
         </p>
-        <div className="flex gap-2 justify-center">
+        <div className="flex flex-col sm:flex-row gap-2 justify-center">
           <Button className="my-2 block" variant="light" color="primary" radius="full">
             <Link to="https://calendar.app.google/xeLir2EqXixX134d6">Prendre RDV (Google)</Link>
           </Button>
